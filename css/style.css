@@ -1,0 +1,479 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #2B2B2B !important;
+}
+
+
+@font-face {
+    font-family: Work Sans;
+    src: url(../WorkSans.ttf);
+} 
+    
+@font-face {
+    font-family: Space Mono;
+    src: url(../SpaceMono.ttf);
+}
+
+
+
+/* Navbar */
+
+
+.logo {
+    transition: all .4s !important;
+}
+
+.logo:hover {
+    transform: scale(1.1) !important;
+}
+
+.marketplace {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    transition: all .3s !important;
+}
+
+.marketplace:hover {
+    transform: scale(1.1) !important;
+    color: #A259FF !important;
+}
+
+
+.rankings {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    margin-left: 50px !important;
+    transition: all .3s !important;
+}
+
+.rankings:hover {
+    transform: scale(1.1) !important;
+    color: #A259FF !important;
+}
+
+.wallet {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    margin-left: 50px !important;
+    transition: all .3s !important;
+}
+
+.wallet:hover {
+    transform: scale(1.1) !important;
+    color: #A259FF !important;
+}
+
+.signup {
+    width: 152px;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A259FF;
+    color: #fff;
+    border: none;
+    transition: all .3s;
+}
+
+.signup:hover {
+    background-color: #2B2B2B;
+    border: 1px solid #A259FF;
+    transform: scale(0.96);
+}
+
+
+
+/* The Orbitians Section */
+
+
+.h2-orbit {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 51px !important;
+    color: #fff !important;
+}
+
+.p1 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+}
+
+.p2 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+}
+
+.p3 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.timerdiv {
+    width: 100% !important;
+    background-color: #3B3B3B80;
+    border-radius: 20px !important;
+}
+
+.p12 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #fff !important;
+    margin-left: 120px !important;
+    padding-top: 20px !important;
+}
+
+.p59 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 38px !important;
+    color: #fff !important;
+}
+
+.p13 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #fff !important;
+    padding-bottom: 30px;
+}
+
+.placebid {
+    width: 100% !important;
+    height: 60px !important;
+    background-color: #A259FF !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    border: none !important;
+}
+
+.placebiddiv {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+}
+
+.p4 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+}
+
+.p5 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.h6-details {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+}
+
+.p6 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+    cursor: pointer !important;
+}
+
+.h6-2 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+}
+
+.animationdiv {
+    width: 150px !important;
+    height: 46px !important;
+    background-color: #3b3b3b;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.animationdiv1 {
+    width: 175px !important;
+    height: 46px !important;
+    background-color: #3b3b3b;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.animationdiv2 {
+    width: 110px !important;
+    height: 46px !important;
+    background-color: #3b3b3b;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.p7 {
+    margin: 0 !important;
+    color: #fff !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .moondiv {
+        margin-left: -79% !important;
+    }
+}
+
+
+
+/* More From This Artist Section */
+
+
+.h3-more {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 38px !important;
+    color: #fff !important;
+}
+
+.artistbutt {
+    width: 100% !important;
+    height: 60px !important;
+    background-color: #2B2B2B !important;
+    border: 2px solid #A259FF !important;
+    border-radius: 20px !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    transition: all .4s;
+}
+
+.artistbutt:hover {
+    background-color: #3b3b3b !important;
+    color: #A259FF !important;
+    transform: scale(0.95);
+}
+
+.distantdiv {
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+}
+
+.distantdiv1 {
+    background-color: #3B3B3B !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    padding-top: 10px !important;
+}
+
+.h3-distant {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.p8 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+.price {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #858584 !important;
+}
+
+.ethp {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+
+
+/* Footer Section */
+
+
+footer {
+    background-color: #3B3B3B !important;
+}
+
+.p15 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #ccc;
+    margin-top: 33px !important;
+}
+
+.p16 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #ccc;
+    margin-top: 20px !important;
+}
+
+.h4-explore {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.p-marketplace {
+    color: #ccc !important;
+    font-family: 'Work Sans';
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+.h3-weekly {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.p17 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #ccc !important;
+    margin-top: 25px !important;
+}
+
+.p18 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #ccc !important;
+}
+
+.emailinput {
+    border: none !important;
+    border-radius: 20px !important;
+    height: 60px !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    outline: none !important;
+    padding-left: 20px !important;
+}
+
+.emailinput1 {
+    border: none !important;
+    border-radius: 20px !important;
+    width: 100% !important;
+    height: 60px !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    outline: none !important;
+    padding-left: 20px !important;
+    margin-bottom: 16px !important;
+}
+
+.subscribebutt {
+    height: 60px !important;
+    width: 100% !important;
+    border: none !important;
+    border-radius: 20px !important;
+    background-color: #A259FF !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    overflow: visible !important;
+}
+
+.subsdiv {
+    background-color: #fff !important;
+    border-radius: 20px !important;
+}
