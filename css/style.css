@@ -19,6 +19,14 @@ body {
     src: url(../SpaceMono.ttf);
 }
 
+@media screen and (max-width: 768px) {
+    .backimg {
+        background-image: url(../pics/mobilebackground.png) !important;
+        background-size: cover !important;
+        width: 100% !important;
+    }
+}
+
 
 
 /* Navbar */
